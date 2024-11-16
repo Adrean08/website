@@ -1,0 +1,257 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+body{
+
+}
+
+.all{
+position: relative;
+width:100%;
+height: 100vh;
+background: white;
+
+}
+nav{
+  background-color: orange;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  z-index: 1000;
+  position: fixed;
+}
+nav ul li{
+  display:inline-block;
+  list-style: none;
+  margin: 10px 20px;
+
+}
+nav a:hover{
+  color: white;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  transition: color 0.20s;
+}
+.info{
+  margin-left: 20%;
+  margin-top: 13%;
+  padding-top: 35px;
+
+}
+.show{
+  opacity: 1;
+}
+.info h1{
+  font-size:50px;
+  color: black;
+  margin-bottom:20px;
+
+}
+span{
+  color: orange;
+}
+.info p{
+  color: gray;
+  line-height: 22px;
+  font-size: 30px;
+}
+.download{
+  background: black;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+  transition: background-color 0.35s, color 0.35s;
+}
+.images{
+  width: 55%;
+  height: 75%;
+  position: absolute;
+  bottom:0;
+  padding-top: 235px;
+  right: 100px;
+  cursor: pointer;
+}
+.images img{
+height: 100%;
+position: absolute;
+left:20%;
+bottom: 0;
+transform: translateX(-50);
+transition: bottom 1s, left 1s;
+}
+.images:hover .me{
+left: 30%;
+}
+.download:hover{
+  background-color: white;
+  color: black;
+
+}
+.download:active{
+  background-color: white;
+  color: black;
+
+}
+.is-downloaded{
+  background-color: white;
+  color: black;
+}
+
+/*About*/
+  #about-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    max-width: 80%;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    top:0;
+    transition: top ease 0.5s, color 0.5s, background-color 0.5s;
+    background: linear-gradient(to left, white 50%, orange 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+ 
+}
+
+#about-section:hover{
+  top: -30px;
+  background-color: orange;
+  color: white;
+  background-position: left;
+}
+
+.photo {
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.about h2 {
+    margin-top: 0;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+/*Skills*/
+.skills-container h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#skills-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  
+}
+
+.skill {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  top: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: top ease 0.5s, background-color 0.5s;
+  background: linear-gradient(to left, white 50%, rgb(206, 204, 202) 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+
+.skill img {
+  max-width: 200px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.skill p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+.skill:hover{
+  top: -10%;
+  background-position: left;
+}
+.skills-description{
+  font-family:  sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+/*contacts*/
+
+#contact-section {
+  padding: 20px 0;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: orange;
+  color: #fff;
+  bottom: 0;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+.social-links li {
+  margin: 0 10px;
+}
+
+.socmed{
+  width:30px;
+
+}
+.insta{
+  width:10px;
+  border-radius: 50px;
+}
