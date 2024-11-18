@@ -1,84 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body>
-  <div class="all">
-    <nav>
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#about-section">ABOUT</a></li>
-        <li><a href="#">ACHIEVEMNETS</a></li>
-        <li><a href="#contact-section">CONTACT</a></li>
-      </ul>
-
-    </nav>
-    <div class="info" class="info.js">
-      <h1>I'm <br><span>Adrean Tiu Huan</span></h1>
-      <p>Computer Engineer</p>
-      <a onclick="downloadB();" href="downloads/Adrean Tiu Huan-CV.pdf" download class="download js-download">DOWNLOAD CV</a>
-
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+    <div class="all">
+      <nav>
+        <ul>
+          <li>
+            <a href="#">HOME</a>
+          </li>
+          <li>
+            <a href="#about-section">ABOUT</a>
+          </li>
+          <li>
+            <a href="#">ACHIEVEMNETS</a>
+          </li>
+          <li>
+            <a href="#contact-section">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <div class="images images-js">
-      <img src="images/no_BG.png" class="me">
+    <div class="main-web">
+       <div class="wrapper">
+          <div class="main-con">
+            <div class="info" class="info.js">
+              <h1>I'm <br>
+                <span>Adrean Tiu Huan</span>
+              </h1>
+              <p>Computer Engineer</p>
+              <a onclick="downloadB();" href="downloads/Adrean Tiu Huan-CV.pdf" download class="download js-download">DOWNLOAD CV</a>
+            </div>
+            <div class="images images-js">
+              <img src="images/no_BG.jpg" class="me">
+            </div>
+          </div>
+       </div>
     </div>
-
-  </div>
-<hr>
-  <div id="about-section">
-    <div class="photo">
+    <div id="about-section">
+      <div class="photo">
         <img src="images/grad-pic.JPG" alt="Your Photo">
-    </div>
-    <div class="about">
+      </div>
+      <div class="about">
         <h2>About Me</h2>
-        <p>
-          Recent Bachelor of Science in Computer Engineering graduate from Notre Dame of Marbel University, learned the basics in software development, hardware design, and system analysis. Proficient in programming languages such as Arduino, C++, and Java, with hands-on experience in embedded systems and network security. Demonstrated strong problem- solving and teamwork abilities through successful completion of capstone projects, IoT projects, Robotics and Automation and internships. Eager to apply technical and software expertise and innovative thinking to contribute to a forward-thinking tech company. Passionate about continuous learning and staying updated with emerging technologies.
-        </p>
+        <p> Recent Bachelor of Science in Computer Engineering graduate from Notre Dame of Marbel University, learned the basics in software development, hardware design, and system analysis. Proficient in programming languages such as Arduino, C++, and Java, with hands-on experience in embedded systems and network security. Demonstrated strong problem- solving and teamwork abilities through successful completion of capstone projects, IoT projects, Robotics and Automation and internships. Eager to apply technical and software expertise and innovative thinking to contribute to a forward-thinking tech company. Passionate about continuous learning and staying updated with emerging technologies. </p>
+      </div>
     </div>
-</div>
-<hr>
-
-<div class="skills-container">
-  <h2>Skills</h2>
-  <div id="skills-section">
-      <div class="skill">
+    
+    <div class="skills-container">
+      <h2>Skills</h2>
+      <div id="skills-section">
+        <div class="skill">
           <img class="skill-c" src="images/c++.png" alt="Skill 1">
           <p class="skills-description">C++</p>
-      </div>
-      <div class="skill">
+        </div>
+        <div class="skill">
           <img class="skill-java" src="images/java.png" alt="Skill 2">
           <p class="skills-description">Java</p>
-      </div>
-      <div class="skill">
+        </div>
+        <div class="skill">
           <img src="images/html.png" alt="Skill 3">
           <p class="skills-description">Html</p>
-      </div>
-     <div class="skill">
+        </div>
+        <div class="skill">
           <img src="images/css-3.png" alt="Skill 4">
           <p class="skills-description">CSS</p>
+        </div>
+        <!-- Add more skills as needed -->
       </div>
-      <!-- Add more skills as needed -->
-  </div>
-</div>
-
-<div id="contact-section">
-  <h2>Contact Me</h2>
-  <ul class="social-links">
-      <li><a href="https://www.instagram.com/twoone0i/" target="_blank" ><img src="images/insta.png" class="socmed"></a></li>
-      <li><a href="https://www.facebook.com/adrean.tiuhuanii" target="_blank" ><img src="images/fb.png" class="socmed"></a></li>
-      <li><a href="https://github.com/Adrean08" target="_blank" ><img src="images/github.png" class="socmed"></a></li>
-  </ul>
-  <p>Phone: +639700721403</p>
-  <p>Email: tiuhuanadrean@gmail.com</p>
-</div>
-
-
-</body>
-<script src="scripts/script.js">
-
-</script>
+    </div>
+    <div id="contact-section">
+      <h2>Contact Me</h2>
+      <ul class="social-links">
+        <li>
+          <a href="https://www.instagram.com/twoone0i/" target="_blank">
+            <img src="images/insta.png" class="socmed">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/adrean.tiuhuanii" target="_blank">
+            <img src="images/fb.png" class="socmed">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Adrean08" target="_blank">
+            <img src="images/github.png" class="socmed">
+          </a>
+        </li>
+      </ul>
+      <p>Phone: +639700721403</p>
+      <p>Email: tiuhuanadrean@gmail.com</p>
+    </div>
+  </body>
+  <script src="scripts/script.js"></script>
 </html>
